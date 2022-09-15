@@ -17,9 +17,9 @@
 
 arr =[10,20,10,20,30,40,50,50]
 print("Duplicate :") 
-for i in range(0, len(arr)):  
-    for j in range(i+1, len(arr)):  
-        if(arr[i] == arr[j]):  
+for i in range(0, len(arr)):    #0 se suru ho kar len (n) tak pehla loop 
+    for j in range(i+1, len(arr)):    # i  loop se +1 age bdhega aur len tak jake rukega
+        if(arr[i] == arr[j]):        #list a i jab list a j k barabar pahuchega tab loop a j ko print kar dega
             print(arr[j],end=",")
 
 <---3 Method--->
